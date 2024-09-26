@@ -24,13 +24,13 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline me-4 md:me-6">
-                  Tentang
+                <a href="/pesanan" className="hover:underline me-4 md:me-6">
+                  Pesanan
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
-                  Contact
+                <a href="/kredit" className="hover:underline">
+                  Kredit
                 </a>
               </li>
             </ul>

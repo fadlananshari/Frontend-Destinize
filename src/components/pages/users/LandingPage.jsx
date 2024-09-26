@@ -45,9 +45,9 @@ const LandingPage = ({ isUserLoggedIn }) => {
 
             <p className="">Destinize membuat kamu selalu update terkait tempat liburan baru di Indonesia dengan mengikuti perkembangan para influencer di sosial media ✨</p>
             <div className="flex gap-4 mt-5">
-              <button className="flex text-white bg-blue-500 rounded-lg px-5 py-3 md:px-8 md:py-4 hover:bg-blue-600 hover:gap-3 hover:pr-5">
+              <a href='/paket-wisata' className="flex text-white bg-blue-500 rounded-lg px-5 py-3 md:px-8 md:py-4 hover:bg-blue-600 hover:gap-3 hover:pr-5">
                 Mulai sekarang <IoIosArrowRoundForward size={25} className="my-auto" />
-              </button>
+              </a>
             </div>
           </div>
         </div>
