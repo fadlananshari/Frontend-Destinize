@@ -1,5 +1,5 @@
 import axios from 'axios'
 
 export const axiosBaseUrl = axios.create({
-  baseURL: "https://destinize-api-04aae1968d23.herokuapp.com/api/v1/"
+  baseURL: "https://destinize-api.vercel.app/api/v1/"
 })
