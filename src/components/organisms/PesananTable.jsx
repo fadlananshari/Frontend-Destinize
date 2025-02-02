@@ -121,7 +121,7 @@ const PesananTable = () => {
                 <td className="px-6 py-4">{data.jml_tagihan}</td>
                 <td className="px-6 py-4">
                   {data.bukti_bayar ? (
-                    <a href={`https://destinize-api-04aae1968d23.herokuapp.com/assets/${data.bukti_bayar}`} className="bg-blue-500 text-sm text-white p-2 rounded-lg">
+                    <a href={`https://destinize-api.vercel.app/assets/${data.bukti_bayar}`} className="bg-blue-500 text-sm text-white p-2 rounded-lg">
                       Lihat
                     </a>
                   ) : (

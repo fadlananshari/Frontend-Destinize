@@ -107,7 +107,7 @@ const GaleryTable = () => {
                 .map((dataGallery) => (
                   <div key={dataGallery.id} className="md:flex gap-3">
                     <img
-                      src={`https://destinize-api-04aae1968d23.herokuapp.com/assets/${dataGallery.gambar}`}
+                      src={`https://destinize-api.vercel.app/assets/${dataGallery.gambar}`}
                       className="sm:h-52 w-auto object-cover"
                       alt={dataGallery.gambar}
                     />

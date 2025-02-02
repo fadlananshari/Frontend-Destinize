@@ -101,7 +101,7 @@ const PaketWisataTable = () => {
                     <td className="px-6 py-4">{data.lokasi}</td>
                     <td className="px-6 py-4">
                       {data.foto ? (
-                        <img src={`https://destinize-api-04aae1968d23.herokuapp.com/assets/${data.foto}`} alt="" className="w-36 h-auto object-cover" />
+                        <img src={`https://destinize-api.vercel.app/assets/${data.foto}`} alt="" className="w-36 h-auto object-cover" />
                       ) : (
                         <button>
                           <a href={`/admin/paket-wisata/tambah-foto/${data.id}`} className="py-2 px-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg">

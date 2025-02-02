@@ -11,7 +11,7 @@ const GoogleTambahAdmin = () => {
           headers: { Authorization: `Bearer ${tokenResponse.access_token}` },
         });
 
-        await axios.post('https://destinize-api-04aae1968d23.herokuapp.com/api/v1/admin', {
+        await axios.post('https://destinize-api.vercel.app/api/v1/admin', {
           name: userInfo.data.name,
           id: userInfo.data.sub,
           email: userInfo.data.email,

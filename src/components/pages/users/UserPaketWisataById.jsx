@@ -266,7 +266,7 @@ const UserPaketWisataById = ({ isUserLoggedIn }) => {
               </h2>
 
               <div key={index} className="grid lg:grid-flow-col gap-10 mt-10 mb-20">
-                <img src={`https://destinize-api-04aae1968d23.herokuapp.com/assets/${data.foto}`} className="" alt="" />
+                <img src={`https://destinize-api.vercel.app/assets/${data.foto}`} className="" alt="" />
                 <div>
                   <p className="text-justify">{data.deskripsi}</p>
                 </div>
@@ -286,7 +286,7 @@ const UserPaketWisataById = ({ isUserLoggedIn }) => {
             {dataGaleri &&
               dataGaleri.map((data, index) => (
                 <div key={index} className="layout">
-                  <img src={`https://destinize-api-04aae1968d23.herokuapp.com/assets/${data.gambar}`} alt="" className="" />
+                  <img src={`https://destinize-api.vercel.app/assets/${data.gambar}`} alt="" className="" />
                 </div>
               ))}
           </div>

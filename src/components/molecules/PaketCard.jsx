@@ -23,7 +23,7 @@ const PaketCard = ({ id, nama, deskripsi, foto, lokasi }) => {
     //   </div>
     // </div>
     <a href={`paket-wisata/${id}`} className="relative bg-white rounded-lg shadow hover:shadow-lg md:hover:shadow-xl duration-500 overflow-hidden w-36 md:w-64 flex-shrink-0">
-      <img src={`https://destinize-api-04aae1968d23.herokuapp.com/assets/${foto}`} alt={nama} className="w-full h-56 md:h-96 object-cover" />
+      <img src={`https://destinize-api.vercel.app/assets/${foto}`} alt={nama} className="w-full h-56 md:h-96 object-cover" />
       <div className="absolute bottom-0 left-0 right-0 p-3 md:p-4 md:rounded-tr bg-white bg-opacity-75 md:mr-24 z-10">
         <h2 className="font-bold text-sm md:text-base">{nama}</h2>
         <p className="text-slate-500 text-xs md:text-sm">{lokasi}</p>

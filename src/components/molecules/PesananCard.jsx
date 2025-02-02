@@ -94,7 +94,7 @@ const PesananCard = ({ data }) => {
         {data.bukti_bayar ? (
           <p className="mt-2">
             :{' '}
-            <a href={`https://destinize-api-04aae1968d23.herokuapp.com/assets/${data.bukti_bayar}`} className="w-max text-sm bg-blue-500 text-white p-2 rounded-md">
+            <a href={`https://destinize-api.vercel.app/assets/${data.bukti_bayar}`} className="w-max text-sm bg-blue-500 text-white p-2 rounded-md">
               Lihat
             </a>
           </p>
