@@ -71,3 +71,14 @@ A modern React-based frontend application for Destinize, a travel and tourism pl
 *   **Admin Management**: Manage administrator accounts.
 
 ## Project Structure
+
+fadlananshari-frontend-destinize/ ├── public/ │ └── logo.png ├── src/ │ ├── assets/ │ ├── components/ │ │ ├── atoms/ │ │ ├── lib/ │ │ ├── materials/ │ │ ├── molecules/ │ │ ├── organisms/ │ │ └── pages/ │ ├── features/ │ ├── routes/ │ ├── App.css │ ├── App.jsx │ ├── index.css │ ├── main.jsx │ └── queryClient.js ├── .eslintrc.cjs ├── index.html ├── package.json ├── postcss.config.js ├── tailwind.config.js ├── vercel.json └── vite.config.js
+
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License.
